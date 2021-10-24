@@ -10,8 +10,6 @@ export class GithubAuthenticationController {
 
             const result = await githubAuthenticationService.execute(code)
 
-            console.log(result)
-
             return response.json(result)
 
         }catch (err) {

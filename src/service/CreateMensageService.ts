@@ -21,6 +21,7 @@ export class CreateMensageService {
         })
 
         const infos = {
+            id: mensage.id,
             text: mensage.text,
             user_id: mensage.user_id,
             createdAt: mensage.createdAt,
